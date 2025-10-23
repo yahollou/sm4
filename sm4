@@ -1,3 +1,4 @@
+
 #include<iostream>
 using namespace std;
 
@@ -19,85 +20,85 @@ int main() {
 
 	}
 	else if (answer != a * 2) {
-		cout << "вы ответили неправильно" << endl;
+		cout << "вы ответили неправильно!" << endl;
 		return 0;
 	}
 
 	cout << a << " * 3" << endl;
 	cout << "ответ: ";
-    cin >> answer;
+	cin >> answer;
 
 	if (answer == a * 3) {
-		cout << "вы ответили правильно" << endl;
+		cout << "вы ответили правильно!" << endl;
 	}
 	else if (answer != a * 3) {
-		cout << "вы ответили неправильно" << endl;
+		cout << "вы ответили неправильно!" << endl;
 		return 0;
 	}
-		cout << a << " * 4" << endl;
-		cout << "ответ: ";
-		cin >> answer;
-		if (answer == a * 4) {
-			cout << "вы ответили правильно" << endl;
-		}
-		else if (answer != a * 4) {
-			cout << "вы ответили неправильно" << endl;
-			return 0;
-		}
-		cout << a << " * 5" << endl;
-		cout << "ответ: ";
-		cin >> answer;
+	cout << a << " * 4" << endl;
+	cout << "ответ: ";
+	cin >> answer;
+	if (answer == a * 4) {
+		cout << "вы ответили правильно!" << endl;
+	}
+	else if (answer != a * 4) {
+		cout << "вы ответили неправильно!" << endl;
+		return 0;
+	}
+	cout << a << " * 5" << endl;
+	cout << "ответ: ";
+	cin >> answer;
 
-		if (answer == a * 5) {
-			cout << "вы ответили правильно" << endl;
-		}
-		else if (answer != a * 5) {
-			cout << "вы ответили неправильно" << endl;
-			return 0;
-		}
-		cout << a << " * 6" << endl;
-		cout << "ответ: ";
-		cin >> answer;
+	if (answer == a * 5) {
+		cout << "вы ответили правильно!" << endl;
+	}
+	else if (answer != a * 5) {
+		cout << "вы ответили неправильно!" << endl;
+		return 0;
+	}
+	cout << a << " * 6" << endl;
+	cout << "ответ: ";
+	cin >> answer;
 
-		if (answer == a * 6) {
-			cout << "вы ответили правильно" << endl;
-		}
-		else if (answer != a * 6) {
-			cout << "вы ответили неправильно" << endl;
-			return 0;
-		}
-		cout << a << " * 7" << endl;
-		cout << "ответ: ";
-		cin >> answer;
+	if (answer == a * 6) {
+		cout << "вы ответили правильно!" << endl;
+	}
+	else if (answer != a * 6) {
+		cout << "вы ответили неправильно!" << endl;
+		return 0;
+	}
+	cout << a << " * 7" << endl;
+	cout << "ответ: ";
+	cin >> answer;
 
-		if (answer == a * 7) {
-			cout << "вы ответили правильно" << endl;
-		}
-		else if (answer != a * 7) {
-			cout << "вы ответили неправильно" << endl;
-			return 0;
-		}
-			cout << a << " * 8" << endl;
-			cout << "ответ: ";
-			cin >> answer;
+	if (answer == a * 7) {
+		cout << "вы ответили правильно!" << endl;
+	}
+	else if (answer != a * 7) {
+		cout << "вы ответили неправильно!" << endl;
+		return 0;
+	}
+	cout << a << " * 8" << endl;
+	cout << "ответ: ";
+	cin >> answer;
 
-			if (answer == a * 8) {
-				cout << "вы ответили правильно" << endl;
-			}
-			else if (answer != a * 8) {
-				cout << "вы ответили неправильно" << endl;
-				return 0;
-			}
-		
-		cout << a << " * 9" << endl;
-		cout << "ответ: ";
-		cin >> answer;
+	if (answer == a * 8) {
+		cout << "вы ответили правильно!" << endl;
+	}
+	else if (answer != a * 8) {
+		cout << "вы ответили неправильно!" << endl;
+		return 0;
+	}
 
-		if (answer == a * 9) {
-			cout << "вы ответили правильно" << endl;
-		}
-		else if (answer != a * 9) {
-			cout << "вы ответили неправильно" << endl;
-			return 0;
-		}
+	cout << a << " * 9" << endl;
+	cout << "ответ: ";
+	cin >> answer;
+
+	if (answer == a * 9) {
+		cout << "вы ответили правильно!" << endl;
+	}
+	else if (answer != a * 9) {
+		cout << "вы ответили неправильно!" << endl;
+		return 0;
+	}
 }
